@@ -1,11 +1,10 @@
 *{ margin: 0; padding: 0;}
 html, body {
    box-sizing: border-box;
+   font-size: 16px;
 }
 
-html {
-    font-size: 1em;
-}
+html { font-size: 16px ; }
 
 
 .grid {
@@ -22,12 +21,54 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.col1, .col2 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7rem;
+    /* font-size: 16px; */
+}
+
+/* 
+! ==========
+! ==  EM  ==
+! ==========
+*/
+
 .col1 h1 {
     font-size: 2.5em;
+    margin-bottom: 1em;
 }
+.col1 p {
+    font-size: 1em;
+}
+
+/* 
+! ==========
+! ==  REM  ==
+! ==========
+*/
+
+
 .col2 h1 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-} 
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.col2 p {
+    font-size: 1rem;
+}
 
+.btn {
+    background-color: black;
+    color: #fff;
+    padding: 1rem 3em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    margin: 0 1rem;
+}
+.btn-small {
+   font-size: .5em;
+}
 
+.btn-lg {
+    font-size: 3em;
+}
