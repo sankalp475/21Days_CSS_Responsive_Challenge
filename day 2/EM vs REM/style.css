@@ -34,8 +34,8 @@ html { font-size: 16px ; }
 */
 
 .col1 h1 {
-    font-size: 2.5em;
-    margin-bottom: 1em;
+    font-size: 2.5em; /* 16*2.5=40px */
+    margin-bottom: 1em; /* 40*1=40px */
 }
 .col1 p {
     font-size: 1em;
