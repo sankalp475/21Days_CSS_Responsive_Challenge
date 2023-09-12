@@ -1,5 +1,8 @@
 {
     "editor.fontFamily": "Monaco",
     "editor.fontSize": 20,
-    "editor.lineHeight": 45
+    "editor.lineHeight": 45,
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.fullReload": true
 }
