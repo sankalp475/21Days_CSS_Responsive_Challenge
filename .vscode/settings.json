@@ -4,5 +4,6 @@
     "editor.lineHeight": 45,
     "liveServer.settings.ChromeDebuggingAttachment": false,
     "liveServer.settings.CustomBrowser": "chrome",
-    "liveServer.settings.fullReload": true
+    "liveServer.settings.fullReload": true,
+    "git.allowForcePush": true
 }
